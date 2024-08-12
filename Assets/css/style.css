@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: navajowhite;
+    font-family: fantasy;
+}
+/* header/ nav bar styles start */
+header {
+    padding: 20px 35px;
+    background-color: purple;
+}
+header h1 {
+    font-weight: bold;
+    display: inline;
+    margin: 0;
+    font-size: 36px;
+    color: navajowhite;
+}
+header a {
+    text-decoration: none;
+    color: navajowhite;
+}
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+/* header/ nav bar styles end */
