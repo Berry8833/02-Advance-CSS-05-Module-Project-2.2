@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    color: navajowhite;
+    color: olive;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /* header/ nav bar styles start */
@@ -98,3 +98,32 @@ section {
     font-size: 16px;
 }
 /* hero styles end */
+
+/* section title styles start */
+.section title {
+    font-style: 55px;
+    border-bottom: 3px solid;
+    color: navy;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+.primary-border {
+    border-color: yellowgreen;
+}
+.secondary-border {
+    border-color: teal;
+}
+/* section title style end */
+
+/* what we do section start */
+.intro p {
+    line-height: 1.7;
+    color: blue;
+    width: 80%;
+    margin: 0 auto;
+    font-style: 20px;
+    text-align: center;
+}
+/* what we do style end */
