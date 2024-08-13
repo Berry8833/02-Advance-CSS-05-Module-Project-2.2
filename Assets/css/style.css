@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    color: olive;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /* header/ nav bar styles start */
@@ -127,3 +127,49 @@ section {
     text-align: center;
 }
 /* what we do style end */
+
+/* what you do style start */
+.steps {
+    background: lightcyan;
+}
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid navy;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.step h3 {
+    color: purple;
+    font-size: 46px;
+    flex: 1 30%;
+}
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+.step-img img {
+    max-width: 100%;
+}
+.step-text {
+    flex: 12;
+}
+.step-text p {
+    color: dodgerblue;
+    font-style: 18px;
+}
+.step-text h4 {
+    font-style: 26px;
+    line-height: 1.5;
+    color: #000;
+}
+/* what you do style end */
